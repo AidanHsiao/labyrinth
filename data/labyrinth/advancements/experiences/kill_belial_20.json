@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "title": "Herald of Death",
+        "description": "Kill Belial 20 times.",
+        "show_toast": true,
+        "frame": "challenge",
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/kill_belial_10",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

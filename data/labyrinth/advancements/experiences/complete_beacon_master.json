@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "title": "How? Literally How?",
+        "description": "Complete the beacon at the Master difficulty.",
+        "show_toast": true,
+        "frame": "challenge",
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/complete_beacon_hard",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

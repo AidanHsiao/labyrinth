@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "title": "Temporarily Cursed",
+        "description": "Die when carrying a Demonic Saber.",
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/die",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

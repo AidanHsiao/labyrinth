@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_helmet"
+        },
+        "title": "Armor Evolution II: The Training",
+        "description": "Equip a full set of Warrior's Armor.",
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/armor_1",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

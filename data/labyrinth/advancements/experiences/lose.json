@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_sword"
+        },
+        "title": "That's a Fat L Not Gonna Lie",
+        "description": "Lose due to everyone dying.",
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/die",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

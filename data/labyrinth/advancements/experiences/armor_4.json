@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_helmet"
+        },
+        "title": "The Second Coming",
+        "description": "Equip a full set of Potato Armor.",
+        "show_toast": true,
+        "frame": "challenge",
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/armor_3",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

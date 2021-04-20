@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mossy_stone_bricks"
+        },
+        "title": "Typical Adventurer",
+        "description": "Complete the beacon at the Medium difficulty.",
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/complete_beacon_easy",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

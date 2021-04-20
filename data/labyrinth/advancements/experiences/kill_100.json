@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:zombie_horse_spawn_egg"
+        },
+        "title": "Zombie Destroyer",
+        "description": "Kill 100 Zombies in one game.",
+        "show_toast": true,
+        "frame": "goal",
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/kill_50",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

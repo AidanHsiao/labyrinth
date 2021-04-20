@@ -1,0 +1,1 @@
+execute as @a[scores={food=..19}] run effect give @s saturation 2 0 true

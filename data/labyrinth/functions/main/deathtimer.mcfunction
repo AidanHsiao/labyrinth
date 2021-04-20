@@ -1,0 +1,39 @@
+execute as @a[team=dead] run scoreboard players add @s deathTimer 1
+execute as @a[team=dead,scores={deathTimer=2400..}] run tp @s 233.5 117 -17 facing 234.5 117 -17
+execute as @a[team=dead,scores={deathTimer=2400..}] run give @s wooden_sword{sword:0b,HideFlags:3,display:{Name:'{"text":"Starter Sword","color":"gray","italic":false}',Lore:['[{"text":"Damage: ","color":"gray","italic":false},{"text":"+4","color":"red"},{"text":" (+6)","color":"dark_gray","italic":false}]','[{"text":"Effective Durability: ","color":"gray","italic":false},{"text":"119","color":"red"}]','{"text":""}','{"text":"A basic sword made of wood.","color":"dark_gray","italic":false}','{"text":""}','{"text":"LITERAL TRASH","color":"gray","italic":false,"bold":true}']},Enchantments:[{id:unbreaking,lvl:1}]}
+execute as @a[team=dead,scores={deathTimer=2400..}] run team join alive
+
+
+execute as @a[team=dead,scores={deathTimer=2400..,explorerScroll=1},tag=explorer] run replaceitem entity @s hotbar.7 minecraft:paper{Unbreakable:1b,HideFlags:63,Enchantments:[{id:unbreaking,lvl:1}],display:{Name:'[{"text":"a","color":"yellow","bold":true,"italic":false,"obfuscated":true},{"text":" Rescue Scroll ","color":"aqua","obfuscated":false},{"text":"a"},{"text":" (Drop to Use)","color":"gray","obfuscated":false,"bold":false}]'}}
+
+execute as @a[team=dead,scores={deathTimer=2400..,explorerScroll=2},tag=explorer] run replaceitem entity @s hotbar.7 minecraft:paper{Unbreakable:1b,HideFlags:63,Enchantments:[{id:unbreaking,lvl:1}],display:{Name:'[{"text":"a","color":"yellow","bold":true,"italic":false,"obfuscated":true},{"text":" Rescue Scroll ","color":"aqua","obfuscated":false},{"text":"a"},{"text":" (Drop to Use)","color":"gray","obfuscated":false,"bold":false}]'}} 2
+
+execute as @a[team=dead,scores={deathTimer=2400..,explorerScroll=3},tag=explorer] run replaceitem entity @s hotbar.7 minecraft:paper{Unbreakable:1b,HideFlags:63,Enchantments:[{id:unbreaking,lvl:1}],display:{Name:'[{"text":"a","color":"yellow","bold":true,"italic":false,"obfuscated":true},{"text":" Rescue Scroll ","color":"aqua","obfuscated":false},{"text":"a"},{"text":" (Drop to Use)","color":"gray","obfuscated":false,"bold":false}]'}} 3
+
+execute as @a[team=dead,scores={deathTimer=2400..,vampireScroll=1},tag=vampire] run replaceitem entity @s hotbar.7 minecraft:paper{Unbreakable:1b,HideFlags:63,Enchantments:[{id:unbreaking,lvl:1}],display:{Name:'[{"text":"a","color":"dark_gray","bold":true,"italic":false,"obfuscated":true},{"text":" Presence Amplified ","color":"dark_red","obfuscated":false},{"text":"a"},{"text":" (Drop to Use)","color":"gray","obfuscated":false,"bold":false}]'}}
+
+execute as @a[team=dead,scores={deathTimer=2400..,vampireScroll=2},tag=vampire] run replaceitem entity @s hotbar.7 minecraft:paper{Unbreakable:1b,HideFlags:63,Enchantments:[{id:unbreaking,lvl:1}],display:{Name:'[{"text":"a","color":"dark_gray","bold":true,"italic":false,"obfuscated":true},{"text":" Presence Amplified ","color":"dark_red","obfuscated":false},{"text":"a"},{"text":" (Drop to Use)","color":"gray","obfuscated":false,"bold":false}]'}} 2
+
+execute as @a[team=dead,scores={deathTimer=2400..,vampireScroll=3},tag=vampire] run replaceitem entity @s hotbar.7 minecraft:paper{Unbreakable:1b,HideFlags:63,Enchantments:[{id:unbreaking,lvl:1}],display:{Name:'[{"text":"a","color":"dark_gray","bold":true,"italic":false,"obfuscated":true},{"text":" Presence Amplified ","color":"dark_red","obfuscated":false},{"text":"a"},{"text":" (Drop to Use)","color":"gray","obfuscated":false,"bold":false}]'}} 3
+
+execute as @a[team=dead,scores={deathTimer=2400..,bruteScroll=1},tag=brute] run replaceitem entity @s hotbar.7 minecraft:paper{Unbreakable:1b,HideFlags:63,Enchantments:[{id:unbreaking,lvl:1}],display:{Name:'[{"text":"a","color":"black","bold":true,"italic":false,"obfuscated":true},{"text":" Ultimate Wrath ","color":"red","obfuscated":false},{"text":"a"},{"text":" (Drop to Use)","color":"gray","obfuscated":false,"bold":false}]'}}
+
+execute as @a[team=dead,scores={deathTimer=2400..,bruteScroll=2},tag=brute] run replaceitem entity @s hotbar.7 minecraft:paper{Unbreakable:1b,HideFlags:63,Enchantments:[{id:unbreaking,lvl:1}],display:{Name:'[{"text":"a","color":"black","bold":true,"italic":false,"obfuscated":true},{"text":" Ultimate Wrath ","color":"red","obfuscated":false},{"text":"a"},{"text":" (Drop to Use)","color":"gray","obfuscated":false,"bold":false}]'}} 2
+
+execute as @a[team=dead,scores={deathTimer=2400..,bruteScroll=3},tag=brute] run replaceitem entity @s hotbar.7 minecraft:paper{Unbreakable:1b,HideFlags:63,Enchantments:[{id:unbreaking,lvl:1}],display:{Name:'[{"text":"a","color":"black","bold":true,"italic":false,"obfuscated":true},{"text":" Ultimate Wrath ","color":"red","obfuscated":false},{"text":"a"},{"text":" (Drop to Use)","color":"gray","obfuscated":false,"bold":false}]'}} 3
+
+execute as @a[team=dead,scores={deathTimer=2400..,priestScroll=1},tag=priest] run replaceitem entity @s hotbar.7 minecraft:paper{Unbreakable:1b,HideFlags:63,Enchantments:[{id:unbreaking,lvl:1}],display:{Name:'[{"text":"a","color":"white","bold":true,"italic":false,"obfuscated":true},{"text":" God\'s Blessing ","color":"yellow","obfuscated":false},{"text":"a"},{"text":" (Drop to Use)","color":"gray","obfuscated":false,"bold":false}]'}}
+
+
+execute as @a[team=dead,scores={deathTimer=2400..},tag=explorer] run replaceitem entity @s hotbar.8 minecraft:carrot_on_a_stick{Unbreakable:1b,HideFlags:63,Enchantments:[{id:unbreaking,lvl:1}],display:{Name:'[{"text":"a","color":"yellow","bold":true,"italic":false,"obfuscated":true},{"text":" Radar ","color":"aqua","obfuscated":false},{"text":"a"},{"text":" (Right-click to Use)","color":"gray","obfuscated":false,"bold":false}]'},classWand:1b}
+
+execute as @a[team=dead,scores={deathTimer=2400},tag=tank] run replaceitem entity @s hotbar.8 minecraft:carrot_on_a_stick{Unbreakable:1b,HideFlags:63,Enchantments:[{id:unbreaking,lvl:1}],display:{Name:'[{"text":"a","color":"yellow","bold":true,"italic":false,"obfuscated":true},{"text":" Titanium Shield ","color":"gold","obfuscated":false},{"text":"a"},{"text":" (Right-click to Use)","color":"gray","obfuscated":false,"bold":false}]'},classWand:2b}
+
+execute as @a[team=dead,scores={deathTimer=2400..},tag=vampire] run replaceitem entity @s hotbar.8 minecraft:carrot_on_a_stick{Unbreakable:1b,HideFlags:63,Enchantments:[{id:unbreaking,lvl:1}],display:{Name:'[{"text":"a","color":"dark_gray","bold":true,"italic":false,"obfuscated":true},{"text":" Step to Hell ","color":"dark_red","obfuscated":false},{"text":"a"},{"text":" (Right-click to Use)","color":"gray","obfuscated":false,"bold":false}]'},classWand:3b}
+
+execute as @a[team=dead,scores={deathTimer=2400..},tag=brute] run replaceitem entity @s hotbar.8 minecraft:carrot_on_a_stick{Unbreakable:1b,HideFlags:63,Enchantments:[{id:unbreaking,lvl:1}],display:{Name:'[{"text":"a","color":"black","bold":true,"italic":false,"obfuscated":true},{"text":" Enrage ","color":"red","obfuscated":false},{"text":"a"},{"text":" (Right-click to Use)","color":"gray","obfuscated":false,"bold":false}]'},classWand:4b}
+
+execute as @a[team=dead,scores={deathTimer=2400..},tag=priest] run replaceitem entity @s hotbar.8 minecraft:carrot_on_a_stick{Unbreakable:1b,HideFlags:63,Enchantments:[{id:unbreaking,lvl:1}],display:{Name:'[{"text":"a","color":"white","bold":true,"italic":false,"obfuscated":true},{"text":" Sentry of Regeneration ","color":"yellow","obfuscated":false},{"text":"a"},{"text":" (Right-click to Use)","color":"gray","obfuscated":false,"bold":false}]'},classWand:5b}
+
+
+execute as @a[team=!dead] run scoreboard players set @s deathTimer 0

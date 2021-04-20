@@ -1,0 +1,3 @@
+execute as @a[nbt=!{Inventory:[{id:"minecraft:red_stained_glass_pane"}]}] run clear @s red_stained_glass_pane
+execute as @a[nbt=!{Inventory:[{id:"minecraft:red_stained_glass_pane"}]}] run replaceitem entity @s inventory.8 air
+execute as @a[nbt=!{Inventory:[{id:"minecraft:red_stained_glass_pane"}]}] run replaceitem entity @s inventory.8 minecraft:red_stained_glass_pane{Enchantments:[{id:unbreaking,lvl:1}],HideFlags:63,display:{Name:'{"text":"Trash Bin","color":"red","italic":false}',Lore:['{"text":"Drag any item into this slot","color":"gray","italic":false}','{"text":"to automatically delete it.","color":"gray","italic":false}']}}

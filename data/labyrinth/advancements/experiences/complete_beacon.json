@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:beacon"
+        },
+        "title": "Labyrinth Complete",
+        "description": "Complete the beacon at any difficulty.",
+        "show_toast": true,
+        "frame": "goal",
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/start_game",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

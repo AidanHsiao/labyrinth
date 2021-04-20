@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": "How Unfortunate",
+        "description": "Die to any cause.",
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/start_game",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

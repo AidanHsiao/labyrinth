@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_helmet"
+        },
+        "title": "Armor Evolution I: The Beginning",
+        "description": "Equip a full set of Soldier's Armor.",
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/start_game",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

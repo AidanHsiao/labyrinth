@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mossy_stone_bricks"
+        },
+        "title": "First Chance",
+        "description": "Start the game for the first time.",
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/root",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

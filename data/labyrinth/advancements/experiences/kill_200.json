@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:zombie_villager_spawn_egg"
+        },
+        "title": "Zombie Annihilator",
+        "description": "Kill 200 Zombies in one game.",
+        "show_toast": true,
+        "frame": "challenge",
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/kill_100",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

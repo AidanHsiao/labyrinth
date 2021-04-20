@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "title": "Conquerer of Guardians",
+        "description": "Kill the Labyrinth Guardian.",
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/start_game",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

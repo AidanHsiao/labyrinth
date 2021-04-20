@@ -1,0 +1,1 @@
+kill @e[tag=rotation,tag=noParticles]

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:red_nether_bricks"
+        },
+        "title": "Quite Impressive",
+        "description": "Complete the beacon at the Hard difficulty.",
+        "show_toast": true,
+        "frame": "goal",
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/complete_beacon_medium",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

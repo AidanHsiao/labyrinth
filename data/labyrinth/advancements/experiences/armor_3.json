@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_helmet"
+        },
+        "title": "Armor Evolution III: The Battle",
+        "description": "Equip a full set of Holy Samurai's Armor.",
+        "show_toast": true,
+        "frame": "goal",
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/armor_2",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

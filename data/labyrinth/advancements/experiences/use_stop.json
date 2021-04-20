@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": "Gotta End It Here",
+        "description": "Stop the game with /trigger stop.",
+        "show_toast": true,
+        "frame": "goal",
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/use_skip",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

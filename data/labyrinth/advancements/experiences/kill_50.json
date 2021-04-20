@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:zombie_spawn_egg"
+        },
+        "title": "Zombie Killer",
+        "description": "Kill 50 Zombies in one game.",
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/start_game",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

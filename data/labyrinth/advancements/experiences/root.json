@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_bricks"
+        },
+        "title": "The Beginning",
+        "description": "The start of your adventure is here.",
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "show_toast": true,
+        "hidden": false
+    },
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:obsidian"
+        },
+        "title": "Boredom",
+        "description": "Things you do when you have nothing left.",
+        "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
+        "show_toast": true,
+        "hidden": false
+    },
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

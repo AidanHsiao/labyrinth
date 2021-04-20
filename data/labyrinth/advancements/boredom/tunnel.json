@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_portal_frame"
+        },
+        "title": "Quantum Tunneling",
+        "description": "Use the wormhole between the ruin and prison area.",
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "labyrinth:boredom/root",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

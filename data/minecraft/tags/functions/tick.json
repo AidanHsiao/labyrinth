@@ -1,0 +1,9 @@
+{
+    "values": [
+        "labyrinth:main/status/main",
+        "labyrinth:boss/utility/arrows",
+        "labyrinth:boss/utility/fangstands",
+        "labyrinth:boss/utility/missiles",
+        "labyrinth:boss/utility/overheal"
+    ]
+}

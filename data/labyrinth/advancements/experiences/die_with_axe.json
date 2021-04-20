@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_axe"
+        },
+        "title": "Eternally Cursed",
+        "description": "Die when carrying a Demonic Axe.",
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/die_with_saber",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

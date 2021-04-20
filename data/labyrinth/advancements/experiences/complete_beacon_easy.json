@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_bricks"
+        },
+        "title": "What a Wimp",
+        "description": "Complete the beacon at the Easy difficulty.",
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "labyrinth:experiences/complete_beacon",
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["criteria"]]
+}

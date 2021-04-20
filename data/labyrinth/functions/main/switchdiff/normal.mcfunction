@@ -1,0 +1,2 @@
+scoreboard players set difficulty status 2
+tellraw @a [{"text":"\nDifficulty set to: ","color":"gold"},{"text":"NORMAL","color":"yellow","bold":true},{"text":"\n\n+ Minecraft Difficulty Set to Normal\n+ Constant Resistance I\n","color":"green"},{"text":"- No Base Strength\n","color":"red"}]
