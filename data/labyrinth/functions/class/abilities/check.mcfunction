@@ -16,8 +16,8 @@ execute as @a[scores={wand=1..,priestWand=0},tag=priest,nbt={SelectedItem:{tag:{
 
 execute as @a[scores={wand=1..,generalTimer=1..}] run tellraw @s {"text":"Ability is on cooldown.","color":"red"}
 
-execute as @a[scores={wand=1..},tag=phantom,tag=ancient] run effect give @s invisibility 15 0 true
-execute as @a[scores={wand=1..},tag=phantom,tag=ancient] run effect give @s speed 15 4 true
+execute as @a[scores={wand=1..,generalTimer=0},tag=phantom,tag=ancient] run effect give @s invisibility 15 0 true
+execute as @a[scores={wand=1..,generalTimer=0},tag=phantom,tag=ancient] run effect give @s speed 15 4 true
 
 scoreboard players set @a scroll 0
 scoreboard players set @a wand 0
